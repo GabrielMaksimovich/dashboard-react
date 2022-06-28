@@ -13,6 +13,7 @@ import './App.css';
 const App = () => {
     const {activeMenu, themeSettings, setThemeSettings, currentColor, currentMode} = useStateContext();
 
+
     return (
         <div className={currentMode === 'Dark' ? 'dark' : ''}>
             <BrowserRouter>
